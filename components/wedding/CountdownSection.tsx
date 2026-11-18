@@ -16,9 +16,6 @@ export function CountdownSection() {
   return (
     <section id="countdown" aria-labelledby="countdown-title" className="paper-section px-5 pb-24 sm:pb-32">
       <div className="mx-auto max-w-3xl text-center">
-        <ScrollReveal as="p" className="eyebrow text-ink/75">
-          Every moment brings us closer
-        </ScrollReveal>
         <ScrollReveal delay={0.12}>
           <h2 id="countdown-title" className="mt-4 font-serif text-[clamp(2.25rem,8vw,3.25rem)] font-medium text-burgundy">
             Countdown to Forever

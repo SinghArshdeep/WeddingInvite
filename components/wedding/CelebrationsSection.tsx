@@ -26,7 +26,7 @@ export function CelebrationsSection() {
           subtitle="Come for the rituals. Stay for the memories."
         />
 
-        <ul className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
+        <ul className="mt-14 mx-auto grid max-w-4xl grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-8">
           {events.map((event, i) => (
             <ScrollReveal key={event.src} delay={i * 0.12} className="mx-auto w-full max-w-sm">
               <li>

@@ -79,12 +79,12 @@ export const weddingConfig: WeddingConfig = {
     {
       src: '/images/memories/moment-11.jpeg',
       alt: 'Two cups of chai beside a sunlit window',
-      caption: 'Where our story began.',
+      caption: 'Where the story began.',
     },
     {
       src: '/images/memories/moment-07.jpeg',
       alt: 'Two hands intertwined, one adorned with mehndi',
-      caption: 'A moment, just us.',
+      caption: 'A moment.',
     },
     {
       src: '/images/memories/moment-08.jpeg',
@@ -107,12 +107,6 @@ export const weddingConfig: WeddingConfig = {
     {
       src: '/images/events/event-06.png',
       alt: 'Event invitation one (placeholder design)',
-      width: 848,
-      height: 1264,
-    },
-    {
-      src: '/images/events/event-05.png',
-      alt: 'Event invitation two (placeholder design)',
       width: 848,
       height: 1264,
     },

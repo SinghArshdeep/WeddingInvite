@@ -23,7 +23,7 @@ export function DateRevealSection() {
           id="date-title"
           eyebrow="A little secret awaits"
           title="A Date to Remember"
-          subtitle="Scratch the keepsake to reveal our special day."
+          subtitle="Scratch the keepsake to reveal the special day."
         />
         <ScrollReveal delay={0.2} className="mt-12">
           <ScratchCard onReveal={handleReveal}>

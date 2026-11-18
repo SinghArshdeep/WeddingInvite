@@ -4,6 +4,7 @@ import { ArrowUp } from 'lucide-react'
 import { useReducedMotion } from 'motion/react'
 import { weddingConfig } from '@/config/wedding'
 import { ScrollReveal } from './ScrollReveal'
+import { FloralDivider } from './FloralDivider'
 
 export function ThankYouSection() {
   const reduce = useReducedMotion()
@@ -19,16 +20,13 @@ export function ThankYouSection() {
       }}
     >
       <div className="mx-auto max-w-2xl">
-        <ScrollReveal as="p" className="eyebrow text-[#fbf5ec]/85">
-          Thank you
+        <ScrollReveal className="mb-10">
+          <FloralDivider />
         </ScrollReveal>
         <ScrollReveal delay={0.15}>
-          <h2 id="thanks-title" className="mt-5 font-script text-[clamp(3rem,11vw,5.5rem)] leading-[1.05]">
-            For being a part of our story.
+          <h2 id="families-title" className="mt-8 font-script text-[clamp(2.75rem,9vw,4.5rem)] leading-tight">
+            Two Families. One Beautiful Beginning.
           </h2>
-        </ScrollReveal>
-        <ScrollReveal as="p" delay={0.3} className="mt-6 font-serif text-xl text-[#fbf5ec]/90 sm:text-2xl">
-          We cannot wait to celebrate this beautiful beginning with you.
         </ScrollReveal>
         <ScrollReveal delay={0.45} className="mt-12">
           <p className="eyebrow text-[#fbf5ec]/80">With love</p>

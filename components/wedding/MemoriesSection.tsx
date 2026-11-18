@@ -11,8 +11,8 @@ export function MemoriesSection() {
         <div className="px-6">
           <SectionHeading
             id="moments-title"
-            eyebrow="Moments to treasure"
-            title="Our Moments"
+            eyebrow=""
+            title="Moments to treasure"
             subtitle="The little moments. The lasting memories."
           />
         </div>
